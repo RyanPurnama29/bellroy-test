@@ -1,48 +1,48 @@
-# Astro Starter Kit: Basics
+# 🧩 Bellroy Frontend Engineering Challenge
 
-```sh
-npm create astro@latest -- --template basics
+Hi Bellroy team! 👋  
+I'm Ryan, a frontend engineer with a strong focus on clean architecture and great user experience. This is my solution for the Elm + Astro challenge — building a reusable, responsive, and dynamic product card component.
+
+---
+
+## 🔍 What I Built
+
+A fully dynamic **Product Card component**, inspired by Bellroy's product listings, built with:
+
+- ✅ [Elm](https://elm-lang.org/) — strictly typed, no runtime exceptions
+- ✅ [Astro](https://astro.build/) — modern static site generator
+- ✅ Interactive color picker — clicking updates the image in real time
+- ✅ Responsive & accessible layout
+- ✅ Styled with vanilla CSS for maintainability
+
+---
+
+## 🛠 Tech Stack
+
+| Layer            | Tech       | Notes                              |
+|------------------|------------|-------------------------------------|
+| UI Component     | `Elm`      | View, update, msg, model pattern    |
+| Site Integration | `Astro`    | Server-side props, dynamic looping  |
+| Build Tool       | `npm`      | Build + Dev + Elm compile           |
+| Styling          | `CSS`      | Custom styles, mobile friendly      |
+
+---
+
+## ⚙️ Getting Started
+
+```bash
+npm install
+npm run dev:with-elm
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+---
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 🙌 Thankyou
+ 
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+Thanks for the opportunity to dive into Elm and experiment with Astro! I truly appreciate the balance Bellroy strikes between quality products and beautiful design — and it was fun to reflect that in this component.
 
-## 🚀 Project Structure
+Looking forward to hearing from you!
 
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Warm regards,
+Ryan Purnama

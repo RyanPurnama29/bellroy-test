@@ -5,10 +5,15 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "build:elm": "elm make src/elm/ProductCard.elm --output public/productCard.js",
+    "dev:with-elm": "npm run build:elm && npm run dev",
+    "build:full": "npm run build:elm && npm run build"
   },
   "dependencies": {
+    "@elm-tooling/elm-language-server": "^2.8.0",
     "astro": "^5.6.0"
+  },
+  "devDependencies": {
+    "elm": "^0.19.1-6"
   }
 }

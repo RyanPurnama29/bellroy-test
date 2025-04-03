@@ -1,0 +1,14 @@
+---
+import "../styles/product-card.css";
+---
+<div id="elm"></div>
+<script is:inline src="/productCard.js"></script>
+<script>
+  const node = document.getElementById("elm");
+
+  if (node && window.Elm?.ProductCard) {
+    window.Elm.ProductCard.init({ node });
+  } else {
+    console.error("Elm.ProductCard is not available");
+  }
+</script>
